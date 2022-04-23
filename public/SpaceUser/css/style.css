@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #18253b;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    align-items: center;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding:0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #28384f;
+    width: 50%;
+    height: 80vh;
+    display: block;
+    align-items: center;
+    background: #111b21;
+    padding: 3%;
+    margin-top: 2%;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    transition: all 1s ease-out;
+}
+
+.content i {
+    color: whitesmoke;
+}
+
+.part1,.part2,.part3,.part4,.part5 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 1s ease-out;
+}
+
+.part1 .right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bold;
+    width:30%;
+}
+
+.part1 .right i {
+    color: yellow;
+}
+
+.part1 .left {
+    display: flex;
+    justify-content: left;
+    width:30%;
+}
+
+.part1 .center {
+    display: flex;
+    justify-content: center;
+    width:30%;
+}
+
+.part1 .center span {
+    background: red;
+    padding: 4%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.part2 {
+    width: 100%;
+    display: block;
+}
+
+.part2 .top img, .part2 .bottom img  {
+    width: 20%;
+    height: 20vh;
+    border: 5px solid gray;
+    border-radius: 3px;
+}
+
+.part2 img:hover  {
+    transform: scale(2);
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+
+.part3 {
+    margin-top: 2%;
+}
+
+.part3 button {
+    outline: none;
+    width: 35px;
+    height: 35px;
+    margin-left: 0.5%;
+    background: #0b0e13;
+    color: whiteSmoke;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    box-shadow:  0 0 5px whitesmoke,
+                0 0 10px whitesmoke;
+}
+
+.part4 {
+    margin-top: 4%;
+}
+
+.part4 button {
+    background: whitesmoke;
+    color: #0b0e13;
+    width: 42px;
+    height: 42px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    margin-bottom: 2%;
+}
+
+.part4 .right {
+    margin-left: 1%;
+    margin-top: -1%;
+}
+
+.part4 .right button {
+    height: 89.5px;
+    background: #48a71c;
+    color: whitesmoke;
+}
+
+.part4 .right button span {
+    font-size: 11px;
+    display: flex;
+}
+
+.part4 .right button i {
+    color: yellow;
+}
+
+.part5 button {
+    width: 47%;
+    height: 5vh;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    color: whitesmoke;
+    background: #e44102;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
