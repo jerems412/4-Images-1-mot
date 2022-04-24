@@ -47,7 +47,7 @@ function bonus(Element) {
             },
             dataType: "html",
             success: function(data) {
-                let nb = Math.floor(Math.random() * (Element.length - 0)) + 0;
+                let nb = Math.floor(Math.random() * Element.length);
                 document.getElementById("but"+nb).innerText = Element[nb];
                 document.getElementById("but"+nb).setAttribute("disabled","disabled");
                 document.getElementById("but"+nb).style.color = "#48a71c";
